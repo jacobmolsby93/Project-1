@@ -22,9 +22,12 @@
     margin-left: 30px;
     margin-top: 15px;
     font-size: 40px;
+    color: #f2d984;
     padding-left: 1rem;
     padding-right: 1rem;
-    border: 1px solid white;
+    border: 3px solid grey;
+    background-color: rgba(46, 49, 49, .8);
+    
 
 }
 
@@ -49,18 +52,31 @@
 .main-nav li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 2rem;
 }
 
 .main-nav li a {
     text-decoration: none;
+    font-size: 1.5em;
+    color: #f2d984;
 }
+
+.main-nav li a:hover {
+    color: #2e3131;
+}
+
+.main-nav li a:focus {
+    color: #ececec;
+    border-bottom: 1.5px solid #2e3131;
+}
+
+
 
 .nav-color {
     position: absolute;
     top: 0;
     width: 100%;
     height: 90px;
-    background: rgba(46, 49, 49, .6);
+    background: rgba(46, 49, 49, .7);
     
 }
