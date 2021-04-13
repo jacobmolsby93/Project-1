@@ -90,24 +90,52 @@
     margin-left: 80px;
 }
 
-.btn {
+/* About me section */
+
+.aboutme {
+    background: rgba(46, 49, 49);
+    height: 75vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.master {
+    width: 100vw;
+    height: 65vh;
+    position: relative;
+}
+
+.text-left {
+    float: left;
+    width: 40%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.container {
     position: absolute;
-    display: block;
-    top: 70%;
-    right: 30%;
-    background-color: black; 
+    align-self: right;
+    width: 40%;
+    right: -300px;
+    margin-left: 40px;
+    margin-top: 400px;
+
 }
 
-.btn a {
-    text-decoration: none;
-    font-size: 2em;
-    padding: .65rem;
-    font-family: 'Brygada 1918';
-    font-weight: bold;
-    color: black;   
+.carousel-inner {
+    margin: 0;
+    padding: 0;
 }
 
-#button {
-    background-color: black;
-    height: 100px;
+.text-left {
+    color: #f2f1ef;
 }
+
+
+.icon1 {
+    color: #00e640;
+}
+
+
