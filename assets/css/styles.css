@@ -101,8 +101,6 @@
 }
 
 .master {
-    width: 100vw;
-    height: 50vh;
     position: relative;
 }
 
@@ -116,10 +114,7 @@
 
 .container {
     position: absolute;
-    align-self: right;
-    width: 40%;
     right: -300px;
-    margin-left: 40px;
     margin-top: 150px;
 
 }
@@ -135,18 +130,49 @@
 
 /* footer section */
 
-.footer-bar {
+.footer-container {
     width: 100%;
-    height: 100px;
-    text-align: center;
-    background-color: black;
+    background: #ecc544a2;
+    height: 140px;
+}
+
+.social-links {
+    width: 33%;
+    float: right;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    margin-right: 40px;
+    line-height: 70px;
     
 }
 
-.footer-bar li {
+.social-links li {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
     font-size: 2em;
-    margin-right: 99px;
-    margin-top: 20px;
+}
+
+.social-links li a {
+    float: right;
+    margin-right: 55px;
+    color: #2e3131;
+}
+
+.social-links li a:hover {
+    font-size: 2.5rem;
+    transition: .1s;
+}
+
+.information {
+    text-align: left;
+    float: left;
+    display: inline;
+    margin-left: 40px;
+    padding: 1rem;
+    margin-top: 7px;
+}
+
+.information h5 {
+    font-size: 80%;
+    color: #2e3131;
 }
